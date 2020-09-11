@@ -16,7 +16,7 @@ public class Main {
 
 
 
-        if(dia < 1 && dia > 31 || mes < 1 && mes > 12){
+        if(dia < 1 || dia > 31 || mes < 1 || mes > 12){
             System.out.print("Data invalida");
         }
         else{
